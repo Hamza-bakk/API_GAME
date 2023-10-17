@@ -1,0 +1,129 @@
+body {
+    background-color: #9e9494;
+  }
+  
+.cardGame {
+    background-color: #d6c8c8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    }
+
+.articles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+/* Style du titre */
+.cardGame h1 {
+  font-size: 18px;
+  margin: 0;
+  padding: 5px;
+  color: #070303;
+}
+
+/* Style de la date de sortie */
+.cardGame h2 {
+  font-size: 14px;
+  margin: 0;
+  padding: 5px;
+  color: #030101;
+}
+
+/* Style du lien vers PageDetail */
+.cardGame a {
+  display: block;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 5px;
+  color: #181f25;
+  text-decoration: underline;
+}
+
+/* Augmentation de la taille de l'image */
+.cardGame img {
+  max-width: 400px; /* Largeur maximale de l'image */
+  max-height: 400px; /* Hauteur maximale de l'image */
+}
+
+/* Style de la section qui contient le contenu de PageDetail */
+.page-detail {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+
+  /* Style du conteneur de l'article */
+  .article {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Style du titre */
+  .article h1.title {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Style de la date de sortie */
+  .article p.release-date {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  /* Style de la description */
+  .article p.description {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Style du bouton "Back to List" */
+  .article .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .article .back-button:hover {
+    background-color: #0056b3;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

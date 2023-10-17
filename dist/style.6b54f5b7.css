@@ -1,0 +1,84 @@
+body {
+  background-color: #9e9494;
+}
+
+.cardGame {
+  background-color: #d6c8c8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.cardGame h1 {
+  font-size: 18px;
+  margin: 0;
+  padding: 5px;
+  color: #070303;
+}
+.cardGame h2 {
+  font-size: 14px;
+  margin: 0;
+  padding: 5px;
+  color: #030101;
+}
+.cardGame a {
+  display: block;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 5px;
+  color: #181f25;
+  text-decoration: underline;
+}
+.cardGame img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.page-detail {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+.page-detail .article {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.page-detail .article .title {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+.page-detail .article .release-date {
+  font-size: 18px;
+  color: #777;
+}
+.page-detail .article .description {
+  font-size: 16px;
+  color: #333;
+}
+.page-detail .article .back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.page-detail .article .back-button:hover {
+  background-color: #0056b3;
+}
+
+/*# sourceMappingURL=/style.6b54f5b7.css.map */
